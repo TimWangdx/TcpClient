@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB403D3D1DF1436A00B42D5C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB403D3C1DF1436A00B42D5C /* main.cpp */; };
+		EB403D451DF1437800B42D5C /* TcpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB403D431DF1437800B42D5C /* TcpClient.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EB403D391DF1436A00B42D5C /* TcpClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TcpClient; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB403D3C1DF1436A00B42D5C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EB403D431DF1437800B42D5C /* TcpClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcpClient.cpp; sourceTree = "<group>"; };
+		EB403D441DF1437800B42D5C /* TcpClient.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TcpClient.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EB403D3C1DF1436A00B42D5C /* main.cpp */,
+				EB403D431DF1437800B42D5C /* TcpClient.cpp */,
+				EB403D441DF1437800B42D5C /* TcpClient.hpp */,
 			);
 			path = TcpClient;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB403D451DF1437800B42D5C /* TcpClient.cpp in Sources */,
 				EB403D3D1DF1436A00B42D5C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
